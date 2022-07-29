@@ -1,0 +1,1308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Barlow+Semi+Condensed:wght@400;500;600&display=swap"
+      rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Testimonial Grid</title>
+
+  </head>
+
+  <body class="font-primary">
+    <!-- menuBar  -->
+    <section>
+      <div>
+        <div class="bg-primary-cyan py-3 px-5 hidden md:block">
+          <div class="grid grid-cols-3 gap-4 text-white">
+            <div class="col-span-2 flex flex-row justify-end mr-64 gap-4">
+              <a href="">Εταιρία</a>
+              <a href="">Νέα</a>
+              <a href="">Επικοινωνία</a>
+              <a href="">Κατηγορίες</a>
+            </div>
+            <div class="col-span-1 flex flex-row items-center gap-5 justify-end">
+              <a href="">Χρειάζεστε βοήθεια? Καλέστε μας: 210 269 3600</a>
+              <a href="" class=""><svg xmlns="http://www.w3.org/2000/svg" class="text-white w-6 h-6" fill="none"
+                  viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                </svg></a>
+            </div>
+
+
+
+          </div>
+        </div>
+        <div class="py-2 bg-primary-cyan block md:hidden">
+          <div class="flex flex-row justify-center gap-x-4 text-white">
+
+            <a href="">Εταιρία</a>
+            <a href="">Νέα</a>
+            <a href="">Επικοινωνία</a>
+            <a href="">Κατηγορίες</a>
+            <a href="" class=""><svg xmlns="http://www.w3.org/2000/svg" class="text-white w-6 h-6" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              </svg></a>
+
+
+
+          </div>
+        </div>
+
+
+        <!-- MenuBar  -->
+
+        <!-- 
+        <div class="px-4">
+          <div class="flex flex-row justify-start items-center space-x-96 py-2.5 ">
+
+            <div class="flex flex-row justify-start items-center gap-5">
+
+              <span><img class="w-[181px] h-[50px] " src="./images/main logo.svg" alt=""></span>
+              <span class="flex gap-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+                Προϊόντα
+              </span>
+            </div>
+
+            <div class="flex row justify-end items-end ">
+              <div class="flex row justify-end items-end">
+                <span>
+                  <input type="search" name="" placeholder="ψάχνω για …"
+                    class=" focus:outline-none block py-2 pr-10 border-primary-dark   sm:text-sm border-b-2 w-96" id="">
+                </span>
+                <span class="">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                  </svg>
+                </span>
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+
+                  </svg>
+                </span>
+              </div>
+
+              <div class="flex row justify-end items-end">
+                <span class="flex items-end md:order-2">
+                  <button type="button"
+                    class="inline-flex justify-center items-center  text-sm text-primary-light rounded cursor-pointer hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                      stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+
+                  </button>
+                  <span>Σύνδεση</span>
+                </span>
+
+              </div>
+
+
+            </div>
+
+
+          </div>
+        </div> -->
+
+
+        <header class="border-b border-gray-100">
+          <div class="flex items-center justify-start space-x-96  mx-auto  px-6 md:px-4">
+            <div class="flex flex-row items-center py-2 gap-x-60 md:gap-x-14 ">
+
+              <span class="inline-block w-[181] h-[50]"><img src="./images/main logo.svg" alt=""></span>
+
+              <span class="flex gap-3 items-center">
+                <button type="button" class="p-2 sm:mr-4 ">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-primary-dark" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                  </svg>
+
+                </button>
+                <span class="hidden md:block">Προϊόντα</span>
+              </span>
+
+
+
+            </div>
+
+            <div class="hidden md:block">
+
+              <div class="flex items-center justify-end flex-1 gap-3">
+                <div class="flex items-end gap-2">
+
+                  <div>
+                    <input type="text" id="simple-search"
+                      class="bg-white border-b-2 border-primary-dark  text-primary-light text-sm  focus:outline-none  block   py-2.5    w-[800px]"
+                      placeholder="ψάχνω για …" required>
+                  </div>
+                  <div>
+                    <a href="/search" class="block ">
+                      <svg class="w-8 h-8 text-[#212121]" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                          d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                      </svg>
+                    </a>
+                  </div>
+                  <div>
+                    <a href="#" class="block ">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-[#212121]" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                          d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                      </svg>
+                    </a>
+                  </div>
+                  <div>
+                    <a href="#" class="block ">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-[#212121]" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                          d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                      </svg>
+                    </a>
+                  </div>
+
+                </div>
+
+                <div class="flex items-end gap-2">
+                  <button type="button" data-dropdown-toggle="language-dropdown-menu"
+                    class="inline-flex justify-end items-center  text-sm text-primary-red rounded cursor-pointer ">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24"
+                      stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                        d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    Σύνδεση
+
+                  </button>
+                </div>
+
+              </div>
+
+
+
+            </div>
+
+
+
+          </div>
+        </header>
+
+
+
+
+      </div>
+
+    </section>
+
+
+
+    <section>
+      <div class="px-5 py-2 hidden md:block ">
+        <div class="flex flex-row gap-5 ">
+
+
+
+          <div class="h-[416px] w-[416px] bg-gray-100">
+          </div>
+
+          <div class="h-[416px] w-[487px] bg-gray-100">
+
+          </div>
+          <div class="w-[936px] h-[416px] bg-gray-100">
+          </div>
+
+
+
+
+        </div>
+
+        <div class="flex flex-row gap-5 mt-5">
+
+
+
+          <div class="h-[416px] w-[852px] bg-gray-100">
+          </div>
+
+          <div class="h-[416px] w-[572px] bg-gray-100">
+
+          </div>
+          <div class="w-[416px] h-[416px] bg-gray-100">
+          </div>
+
+
+
+
+
+        </div>
+
+
+      </div>
+
+
+      <div class="block md:hidden">
+        <div class="w-full h-[300px] bg-gray-100">
+        </div>
+        <div class="grid grid-cols-2 h-[200px] w-full gap-2 mt-2">
+          <div class="w-full object-cover bg-gray-100">
+
+          </div>
+          <div class="w-full object-cover bg-gray-100">
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+    </section>
+
+
+    <section>
+      <div class="container mx-auto  mt-10">
+        <div>
+          <h2 class="mt-1 text-3xl font-bold tracking-wide uppercase lg:text-3xl">
+            Νέα Προϊόντα
+          </h2>
+        </div>
+
+
+
+        <div class="grid grid-cols-2 mt-8  lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-x-4 gap-y-8">
+
+          <a href="#">
+            <div class="w-64 bg-gray-100 flex items-center justify-center border-b-4 border-[#E6E6E6]">
+              <img src="./images/145247-web_1010x1180_transparent_png@2x.png" class="max-w-xs max-h-xs p-4" alt=""
+                srcset="">
+            </div>
+            <div class="pl-3 pt-3">
+              <h5 class=" text-base text-primary-dark font-bold">
+                Build Your Own Drone
+              </h5>
+              <p class="text-md font-normal text-primary-light pt-3">
+                Muscleback Swimsuit Blue/Black
+              </p>
+              <p
+                class="text-[14px] text-primary-light font-bold pt-3 hover:text-primary-red transition hover:duration-200">
+                Συνδεθείτε για να δείτε την τιμή
+              </p>
+
+
+            </div>
+
+          </a>
+
+          <a href="#">
+            <div class="w-64 h-[375px] bg-gray-100 flex items-center justify-center border-b-4 border-[#E6E6E6]">
+              <img src="./images/145247-web_1010x1180_transparent_png@2x.png" class="max-w-xs max-h-xs p-4" alt=""
+                srcset="">
+            </div>
+            <div class="pl-3 pt-3">
+              <h5 class=" text-base text-primary-dark font-bold">
+                Build Your Own Drone
+              </h5>
+              <p class="text-md font-normal text-primary-light pt-3">
+                Muscleback Swimsuit Blue/Black
+              </p>
+              <p
+                class="text-[14px] text-primary-light font-bold pt-3 hover:text-primary-red transition hover:duration-200">
+                Συνδεθείτε για να δείτε την τιμή
+              </p>
+
+
+            </div>
+
+          </a>
+          <a href="#">
+            <div class="w-64 bg-gray-100 flex items-center justify-center border-b-4 border-[#E6E6E6]">
+              <img src="./images/145247-web_1010x1180_transparent_png@2x.png" class="max-w-xs max-h-xs p-4" alt=""
+                srcset="">
+            </div>
+            <div class="pl-3 pt-3">
+              <h5 class=" text-base text-primary-dark font-bold">
+                Build Your Own Drone
+              </h5>
+              <p class="text-md font-normal text-primary-light pt-3">
+                Muscleback Swimsuit Blue/Black
+              </p>
+              <p
+                class="text-[14px] text-primary-light font-bold pt-3 hover:text-primary-red transition hover:duration-200">
+                Συνδεθείτε για να δείτε την τιμή
+              </p>
+
+
+            </div>
+
+          </a>
+
+          <a href="#">
+            <div class="w-64 h-[375px] bg-gray-100 flex items-center justify-center border-b-4 border-[#E6E6E6]">
+              <img src="./images/145247-web_1010x1180_transparent_png@2x.png" class="max-w-xs max-h-xs p-4" alt=""
+                srcset="">
+            </div>
+            <div class="pl-3 pt-3">
+              <h5 class=" text-base text-primary-dark font-bold">
+                Build Your Own Drone
+              </h5>
+              <p class="text-md font-normal text-primary-light pt-3">
+                Muscleback Swimsuit Blue/Black
+              </p>
+              <p
+                class="text-[14px] text-primary-light font-bold pt-3 hover:text-primary-red transition hover:duration-200">
+                Συνδεθείτε για να δείτε την τιμή
+              </p>
+
+
+            </div>
+
+          </a>
+
+
+          <a href="#">
+            <div class="w-64 h-[375px] bg-gray-100 flex items-center justify-center border-b-4 border-[#E6E6E6]">
+              <img src="./images/145247-web_1010x1180_transparent_png@2x.png" class="max-w-xs max-h-xs p-4" alt=""
+                srcset="">
+            </div>
+            <div class="pl-3 pt-3">
+              <h5 class=" text-base text-primary-dark font-bold">
+                Build Your Own Drone
+              </h5>
+              <p class="text-md font-normal text-primary-light pt-3">
+                Muscleback Swimsuit Blue/Black
+              </p>
+              <p
+                class="text-[14px] text-primary-light font-bold pt-3 hover:text-primary-red transition hover:duration-200">
+                Συνδεθείτε για να δείτε την τιμή
+              </p>
+
+
+            </div>
+
+          </a>
+
+
+          <a href="#">
+            <div class="w-64 h-[375px] bg-gray-100 flex items-center justify-center border-b-4 border-[#E6E6E6]">
+              <img src="./images/145247-web_1010x1180_transparent_png@2x.png" class="max-w-xs max-h-xs p-4" alt=""
+                srcset="">
+            </div>
+            <div class="pl-3 pt-3">
+              <h5 class=" text-base text-primary-dark font-bold">
+                Build Your Own Drone
+              </h5>
+              <p class="text-md font-normal text-primary-light pt-3">
+                Muscleback Swimsuit Blue/Black
+              </p>
+              <p
+                class="text-[14px] text-primary-light font-bold pt-3 hover:text-primary-red transition hover:duration-200">
+                Συνδεθείτε για να δείτε την τιμή
+              </p>
+
+
+            </div>
+
+          </a>
+
+          <a href="#">
+            <div class="w-64 h-[375px] bg-gray-100 flex items-center justify-center border-b-4 border-[#E6E6E6]">
+              <img src="./images/145247-web_1010x1180_transparent_png@2x.png" class="max-w-xs max-h-xs p-4" alt=""
+                srcset="">
+            </div>
+            <div class="pl-3 pt-3">
+              <h5 class=" text-base text-primary-dark font-bold">
+                Build Your Own Drone
+              </h5>
+              <p class="text-md font-normal text-primary-light pt-3">
+                Muscleback Swimsuit Blue/Black
+              </p>
+              <p
+                class="text-[14px] text-primary-light font-bold pt-3 hover:text-primary-red transition hover:duration-200">
+                Συνδεθείτε για να δείτε την τιμή
+              </p>
+
+
+            </div>
+
+          </a>
+          <a href="#">
+            <div class="w-64 h-[375px] bg-gray-100 flex items-center justify-center border-b-4 border-[#E6E6E6]">
+              <img src="./images/145247-web_1010x1180_transparent_png@2x.png" class="max-w-xs max-h-xs p-4" alt=""
+                srcset="">
+            </div>
+            <div class="pl-3 pt-3">
+              <h5 class=" text-base text-primary-dark font-bold">
+                Build Your Own Drone
+              </h5>
+              <p class="text-md font-normal text-primary-light pt-3">
+                Muscleback Swimsuit Blue/Black
+              </p>
+              <p
+                class="text-[14px] text-primary-light font-bold pt-3 hover:text-primary-red transition hover:duration-200">
+                Συνδεθείτε για να δείτε την τιμή
+              </p>
+
+
+            </div>
+
+          </a>
+          <a href="#">
+            <div class="w-64 h-[375px] bg-gray-100 flex items-center justify-center border-b-4 border-[#E6E6E6]">
+              <img src="./images/145247-web_1010x1180_transparent_png@2x.png" class="max-w-xs max-h-xs p-4" alt=""
+                srcset="">
+            </div>
+            <div class="pl-3 pt-3">
+              <h5 class=" text-base text-primary-dark font-bold">
+                Build Your Own Drone
+              </h5>
+              <p class="text-md font-normal text-primary-light pt-3">
+                Muscleback Swimsuit Blue/Black
+              </p>
+              <p
+                class="text-[14px] text-primary-light font-bold pt-3 hover:text-primary-red transition hover:duration-200">
+                Συνδεθείτε για να δείτε την τιμή
+              </p>
+
+
+            </div>
+
+          </a>
+          <a href="#">
+            <div class="w-64 h-[375px] bg-gray-100 flex items-center justify-center border-b-4 border-[#E6E6E6]">
+              <img src="./images/145247-web_1010x1180_transparent_png@2x.png" class="max-w-xs max-h-xs p-4" alt=""
+                srcset="">
+            </div>
+            <div class="pl-3 pt-3">
+              <h5 class=" text-base text-primary-dark font-bold">
+                Build Your Own Drone
+              </h5>
+              <p class="text-md font-normal text-primary-light pt-3">
+                Muscleback Swimsuit Blue/Black
+              </p>
+              <p
+                class="text-[14px] text-primary-light font-bold pt-3 hover:text-primary-red transition hover:duration-200">
+                Συνδεθείτε για να δείτε την τιμή
+              </p>
+
+
+            </div>
+
+          </a>
+
+
+
+        </div>
+    </section>
+
+
+    <!-- TODO: big silder part not done but should be done  -->
+
+    <section>
+      <div>
+
+        <div id="default-carousel" class="relative" data-carousel="static">
+          <!-- Carousel wrapper -->
+          <div class="overflow-hidden relative h-56 rounded-lg md:h-96">
+            <!-- Item 1 -->
+            <div class="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-0 z-20"
+              data-carousel-item="">
+              <span
+                class="absolute top-1/2 left-1/2 text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800">First
+                Slide</span>
+              <img src="./images/galesyn_repellent_onmarble_banner_900x400"
+                class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+            </div>
+            <!-- Item 2 -->
+            <div class="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-full z-10"
+              data-carousel-item="">
+              <img src="./images/galesyn_repellent_onmarble_banner_900x400"
+                class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+            </div>
+            <!-- Item 3 -->
+            <div class="duration-700 ease-in-out absolute inset-0 transition-all transform -translate-x-full z-10"
+              data-carousel-item="">
+              <img src="./images/galesyn_repellent_onmarble_banner_900x400"
+                class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+            </div>
+          </div>
+          <!-- Slider indicators -->
+          <div class="flex absolute bottom-5 left-1/2 z-30 space-x-3 -translate-x-1/2">
+            <button type="button" class="w-3 h-3 rounded-full bg-white dark:bg-gray-800" aria-current="true"
+              aria-label="Slide 1" data-carousel-slide-to="0"></button>
+            <button type="button"
+              class="w-3 h-3 rounded-full bg-white/50 dark:bg-gray-800/50 hover:bg-white dark:hover:bg-gray-800"
+              aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+            <button type="button"
+              class="w-3 h-3 rounded-full bg-white/50 dark:bg-gray-800/50 hover:bg-white dark:hover:bg-gray-800"
+              aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+          </div>
+          <!-- Slider controls -->
+          <button type="button"
+            class="flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+            data-carousel-prev="">
+            <span
+              class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+              <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none"
+                stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+              </svg>
+              <span class="sr-only">Previous</span>
+            </span>
+          </button>
+          <button type="button"
+            class="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+            data-carousel-next="">
+            <span
+              class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+              <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none"
+                stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+              </svg>
+              <span class="sr-only">Next</span>
+            </span>
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section>
+      <div class="container mx-auto">
+
+        <div class="flex items-center justify-center w-full h-full py-24 sm:py-8 px-4">
+          <div class="w-full relative flex items-center justify-center">
+            <button aria-label="slide backward"
+              class="absolute z-30 left-0 -ml-5 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 cursor-pointer bg-white rounded-full shadow py-3 px-4"
+              id="prev">
+              <svg class="dark:text-gray-900" width="8" height="14" viewBox="0 0 8 14" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M7 1L1 7L7 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </button>
+            <div class="w-full h-full mx-auto overflow-x-hidden overflow-y-hidden">
+              <div id="slider"
+                class="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700">
+
+                <div class="flex flex-col  w-52">
+                  <div class=" h-52 w-52 border bg-orange-400">
+                  </div>
+                  <p class="text-base font-light text-black text-center ">fardin</p>
+
+
+                </div>
+                <div class="flex flex-col  w-52">
+                  <div class=" h-52 w-52 border bg-orange-400">
+                  </div>
+                  <p class="text-base font-light text-black text-center ">fardin</p>
+
+
+                </div>
+                <div class="flex flex-col  w-52">
+                  <div class=" h-52 w-52 border bg-orange-400">
+                  </div>
+                  <p class="text-base font-light text-black text-center ">fardin</p>
+
+
+                </div>
+                <div class="flex flex-col  w-52">
+                  <div class=" h-52 w-52 border bg-orange-400">
+                  </div>
+                  <p class="text-base font-light text-black text-center ">fardin</p>
+
+
+                </div>
+                <div class="flex flex-col  w-52">
+                  <div class=" h-52 w-52 border bg-orange-400">
+                  </div>
+                  <p class="text-base font-light text-black text-center ">fardin</p>
+
+
+                </div>
+
+                <div class="flex flex-col  w-52">
+                  <div class=" h-52 w-52 border bg-orange-400">
+                  </div>
+                  <p class="text-base font-light text-black text-center ">fardin</p>
+
+
+                </div>
+
+
+
+
+
+                <div class="flex flex-col  w-52">
+                  <div class=" h-52 w-52 border bg-orange-400">
+                  </div>
+                  <p class="text-base font-light text-black text-center ">fardin</p>
+
+
+                </div>
+
+
+
+                <div class="flex flex-col  w-52">
+                  <div class=" h-52 w-52 border bg-orange-400">
+                  </div>
+                  <p class="text-base font-light text-black text-center ">fardin</p>
+
+
+                </div>
+
+
+
+
+
+
+                <div class="flex flex-col  w-52">
+                  <div class=" h-52 w-52 border bg-orange-400">
+                  </div>
+                  <p class="text-base font-light text-black text-center ">fardin</p>
+
+
+                </div>
+
+
+
+
+
+
+
+
+                <div class="flex flex-col  w-52">
+                  <div class=" h-52 w-52 border bg-orange-400">
+                  </div>
+                  <p class="text-base font-light text-black text-center ">fardin</p>
+
+
+                </div>
+
+              </div>
+            </div>
+            <button aria-label="slide forward"
+              class="absolute z-30 right-0 -mr-5 focus:outline-none focus:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400 bg-white rounded-full shadow py-3 px-4"
+              id="next">
+              <svg class="dark:text-gray-900" width="8" height="14" viewBox="0 0 8 14" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </button>
+          </div>
+
+
+        </div>
+
+
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+    </section>
+
+
+
+
+    <section>
+      <div class="container mx-auto">
+
+        <div>
+          <h1 class="text-primary-cyan font-extrabold text-center text-xl">Όλες οι κατηγορίες</h1>
+        </div>
+        <div
+          class="bg-[url('../images/bg-image.svg')] bg-no-repeat w-full h-72 flex flex-row justify-around items-center opacity-70">
+
+          <div>
+            <h2 class="text-white text-2xl font-normal">Είστε επαγγελματίας;</h2>
+            <h1 class="text-white text-4xl font bold mt-3">Αποκτήστε πρόσβαση στο e-shop.</h1>
+
+
+            <div class="mt-10">
+              <a class="inline-block px-12 py-3 text-sm font-medium text-white border border-white   focus:outline-none focus:ring"
+                href="#">
+                σύνδεση / εγγραφη
+              </a>
+            </div>
+
+          </div>
+
+          <div>
+            <img class="h-36 w-36" src="https://i.ibb.co/DM2DhWR/Group-4621-2x.png" alt="Group-4621-2x">
+          </div>
+
+
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+
+    <section class="mt-10">
+      <div class="container mx-auto">
+        <div class="grid grid-cols-4 grid-rows-2 gap-2">
+          <div class="col-span-2 row-span-2 relative">
+            <img src="./images/Mask Group 75@2x.png" alt="">
+            <div class="absolute top-0 left-0">
+
+              <button class="py-1 px-4 bg-black text-white rounded-md mt-5 ml-5">BEE SUN SAFE</button>
+
+            </div>
+
+            <div class="absolute bottom-0 left-0">
+              <div class="ml-5 py-5 max-w-[231px] text-white">
+                <h1>Apivita</h1>
+                <p>Ενυδατική Κρέμα-Gel Προσώπου με Χρώμα SPF50</p>
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class=" relative">
+            <img src="./images/Mask Group 75@2x.png" alt="">
+            <div class="absolute top-0 left-0">
+
+              <button class="py-1 px-4 bg-black text-white rounded-md mt-5 ml-5">BEE SUN SAFE</button>
+
+            </div>
+
+            <div class="absolute bottom-0 left-0">
+              <div class="ml-5 py-5 max-w-[231px] text-white">
+                <h1>Apivita</h1>
+                <p>Ενυδατική Κρέμα-Gel Προσώπου με Χρώμα SPF50</p>
+              </div>
+            </div>
+
+          </div>
+          <div class=" relative">
+            <img src="./images/Mask Group 75@2x.png" alt="">
+            <div class="absolute top-0 left-0">
+
+              <button class="py-1 px-4 bg-black text-white rounded-md mt-5 ml-5">0%</button>
+
+            </div>
+
+            <div class="absolute bottom-0 left-0">
+              <div class="ml-5 py-5 max-w-[231px] text-white">
+                <h1>Apivita</h1>
+                <p>Ενυδατική Κρέμα-Gel Προσώπου με Χρώμα SPF50</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class=" relative">
+            <img src="./images/Mask Group 75@2x.png" alt="">
+            <div class="absolute top-0 left-0">
+
+              <button class="py-1 px-4 bg-black text-white rounded-md mt-5 ml-5">0%</button>
+
+            </div>
+
+            <div class="absolute bottom-0 left-0">
+              <div class="ml-5 py-5 max-w-[231px] text-white">
+                <h1>Apivita</h1>
+                <p>Ενυδατική Κρέμα-Gel Προσώπου με Χρώμα SPF50</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class=" relative">
+            <img src="./images/Mask Group 75@2x.png" alt="">
+            <div class="absolute top-0 left-0">
+
+              <button class="py-1 px-4 bg-black text-white rounded-md mt-5 ml-5">BEE SUN SAFE</button>
+
+            </div>
+
+            <div class="absolute bottom-0 left-0">
+              <div class="ml-5 py-5 max-w-[231px] text-white">
+                <h1>Apivita</h1>
+                <p>Ενυδατική Κρέμα-Gel Προσώπου με Χρώμα SPF50</p>
+              </div>
+            </div>
+
+          </div>
+
+
+
+        </div>
+      </div>
+    </section>
+
+
+    <section class="mt-10">
+      <div class="container mx-auto">
+        <div class="relative ">
+
+          <img class="h-full"
+            src="https://res.cloudinary.com/aldinntara/image/upload/v1659059208/aldinn/Mask_Group_59_2x_suwtcg.png"
+            alt="">
+
+
+          <div class="w-full h-auto bg-slate-800/30 absolute top-0 right-0 bottom-0 left-0">
+
+            <div class="grid grid-cols-2">
+              <div><img class="w-24 h-24 ml-5 mt-5"
+                  src="https://res.cloudinary.com/aldinntara/image/upload/v1659059524/aldinn/nivea_logo_2x_voyork.png"
+                  alt=""></div>
+              <div class="flex justify-end">
+                <div class=" max-w-xs text-white mt-10 ">
+                  <h1 class="text-right text-2xl mr-5">Βρεφική Περιποίηση</h1>
+                  <p class="text-right text-3xl mr-5">Εξερεύνησε τη βρεφική συλλογή της NIVEA και βρες την περιποίηση
+                    που χρειάζεται το μωρό σου</p>
+                  <div class="mt-10 right-0">
+                    <a href="" class="border-white border-2 text-white py-2 px-5 ">δείτε περισσότερα</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+
+
+
+
+        </div>
+      </div>
+    </section>
+
+
+    <section class="mt-10">
+      <div class="container mx-auto">
+        <div class="relative">
+          <div class="grid grid-cols-1 md:grid-cols-2 ">
+
+            <div class="relative ">
+              <img class="" src="./images/mask.png" alt="">
+
+              <div class="absolute top-0 right-0">
+                <h1 class="text-white text-3xl mt-14 mr-10">NEW ARRIVALS</h1>
+
+              </div>
+              <div class="absolute bottom-0 right-0">
+                <h1 class="text-white text-3xl top-0 mb-7 mr-10">#COVID-19 PREVENTION</h1>
+
+              </div>
+
+
+            </div>
+            <div class="relative">
+              <img src="./images/baby.png" alt="">
+
+              <div class="absolute top-0 left-0">
+                <h1 class="text-white text-3xl mt-14 ml-10">NEW ARRIVALS</h1>
+
+              </div>
+              <div class="absolute bottom-0 left-0">
+                <h1 class="text-white text-3xl top-0 mb-7 ml-10">#COVID-19 PREVENTION</h1>
+
+              </div>
+
+
+            </div>
+
+          </div>
+
+
+          <div class="absolute top-0 right-0 left-0 ">
+
+            <h1 class="text-[200px] w-full ml-[30%] mt-12 tracking-[0.2em]	 mr[48%] text-white font-extrabold ">2022
+            </h1>
+
+          </div>
+        </div>
+
+        <div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <section class="pt-10">
+      <div class="container mx-auto">
+        <div class="flex flex-col md:flex-row  py-12 border-2 border-gray-300 gap-3 justify-center">
+
+
+          <div class="w-80">
+
+            <p class="font-bold text-base">Μόνο για Επαγγελματίες</p>
+            <p class="text-[14px] text-primary-light">Επωφεληθείτε από τις χαμηλές τιμές.</p>
+
+          </div>
+          <div class="w-80">
+
+            <p class="font-bold text-base">Μόνο για Επαγγελματίες</p>
+            <p class="text-[14px] text-primary-light">Επωφεληθείτε από τις χαμηλές τιμές.</p>
+
+          </div>
+          <div class="w-80">
+
+            <p class="font-bold text-base">Μόνο για Επαγγελματίες</p>
+            <p class="text-[14px] text-primary-light">Επωφεληθείτε από τις χαμηλές τιμές.</p>
+
+          </div>
+          <div class="w-80">
+
+            <p class="font-bold text-base">Μόνο για Επαγγελματίες</p>
+            <p class="text-[14px] text-primary-light">Επωφεληθείτε από τις χαμηλές τιμές.</p>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- instagram feed   -->
+
+    <section>
+      <div class="container mx-auto">
+        <h1 class="text-center">Fardin </h1>
+
+        <div class="grid grid-cols-2 lg:grid-cols-6 gap-x-2">
+          <img class="w-64 h-64" src="./images/10-10-75-051_3.png" alt="">
+          <img class="w-64 h-64" src="./images/10-10-75-051_3.png" alt="">
+          <img class="w-64 h-64" src="./images/10-10-75-051_3.png" alt="">
+          <img class="w-64 h-64" src="./images/10-10-75-051_3.png" alt="">
+          <img class="w-64 h-64" src="./images/10-10-75-051_3.png" alt="">
+          <img class="w-64 h-64" src="./images/10-10-75-051_3.png" alt="">
+
+
+        </div>
+
+      </div>
+    </section>
+
+    <section>
+      <div class="container mx-auto bg-gray-50 py-10 px-3 mt-10">
+
+        <div class="flex flex-col md:flex-row justify-between">
+          <div>
+            <div class="max-w-2xl">
+              <h1>Θέλετε να εγγραφείτε στο newsletter μας; Συμπληρώστε το email σας για να σας ενημερώνουμε για τα νέα
+                μας.</h1>
+            </div>
+            <div>
+              <input type="checkbox" name="Συμφωνώ με την Πολιτική απορρήτου *" id="" required> Συμφωνώ με την Πολιτική
+              απορρήτου <span>*</span>
+            </div>
+          </div>
+
+
+          <div>
+            <div class="flex w-full flex-wrap mx-auto items-center">
+              <div class="flex md:flex-nowrap flex-wrap justify-center items-end md:justify-start">
+                <div class="relative sm:w-64 w-40 sm:mr-4 mr-2">
+                  <input placeholder="Το email σας" type="text" id="footer-field" name="footer-field"
+                    class="w-full bg-gray-100 bg-opacity-50 rounded border-2 border-slate-900 focus:ring-2 focus:bg-transparent focus:ring-slate-200 focus:border-slate-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+                <button
+                  class="inline-flex text-white bg-slate-900 w-full md:w-auto border-0 py-2.5 px-6 focus:outline-none hover:bg-slate-600 ">Αποστολή</button>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      </div>
+
+      </div>
+    </section>
+
+    <section class="bg-white">
+      <footer class="bg-[url('../images/background_footer.png')]">
+        <div class="container px-4 pt-16 pb-6 mx-auto sm:px-6 lg:px-8 lg:pt-24 ">
+          <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
+            <div>
+              <div class="flex justify-center text-teal-600 sm:justify-start">
+                <img src="./images/main logo.svg" alt="">
+              </div>
+
+              <p
+                class="max-w-md mx-auto mt-6 leading-relaxed text-center text-gray-500 sm:max-w-xs sm:mx-0 sm:text-left">
+                Εταιρεία δεύτερης γενιάς που προμηθεύει φαρμακαποθήκες & φαρμακεία με παραφαρμακευτικά, ιατροτεχνολογικά
+                & χημικές ουσίες πάνω από 30 χρόνια…
+              </p>
+
+              <ul class="flex justify-center gap-6 mt-8 md:gap-8 sm:justify-start">
+                <li>
+                  <a href="/" rel="noopener noreferrer" target="_blank"
+                    class="text-teal-700 transition hover:text-teal-700/75">
+                    <span class="sr-only">Facebook</span>
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                      <path fill-rule="evenodd"
+                        d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                        clip-rule="evenodd" />
+                    </svg>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="/" rel="noopener noreferrer" target="_blank"
+                    class="text-teal-700 transition hover:text-teal-700/75">
+                    <span class="sr-only">Instagram</span>
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                      <path fill-rule="evenodd"
+                        d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                        clip-rule="evenodd" />
+                    </svg>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="/" rel="noopener noreferrer" target="_blank"
+                    class="text-teal-700 transition hover:text-teal-700/75">
+                    <span class="sr-only">Youtube</span>
+                    <svg class="w-6 h-6 " viewBox="0 0 256 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M250.346 28.0747C247.358 17.0321 238.732 8.40602 227.689 5.41792C207.824 0 127.868 0 127.868 0C127.868 0 47.9129 0.16418 28.0472 5.5821C17.0046 8.5702 8.37853 17.1962 5.39044 28.2389C-0.618534 63.5375 -2.94988 117.323 5.55462 151.209C8.54271 162.252 17.1687 170.878 28.2114 173.866C48.0771 179.284 128.033 179.284 128.033 179.284C128.033 179.284 207.988 179.284 227.854 173.866C238.896 170.878 247.522 162.252 250.51 151.209C256.848 115.861 258.801 62.1091 250.346 28.0747Z"
+                        fill="#5A5A5A" />
+                      <path d="M102.421 128.06L168.749 89.6421L102.421 51.2241V128.06Z" fill="white" />
+                    </svg>
+
+                  </a>
+                </li>
+
+
+
+              </ul>
+            </div>
+
+            <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 md:grid-cols-4 mt-24">
+              <div class="text-center sm:text-left">
+                <p class="text-lg font-medium text-gray-900">About Us</p>
+
+                <nav class="mt-8">
+                  <ul class="space-y-4 text-sm">
+                    <li>
+                      <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
+                        Company History
+                      </a>
+                    </li>
+
+                    <li>
+                      <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
+                        Meet the Team
+                      </a>
+                    </li>
+
+                    <li>
+                      <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
+                        Employee Handbook
+                      </a>
+                    </li>
+
+                    <li>
+                      <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
+                        Careers
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+
+              <div class="text-center sm:text-left">
+                <p class="text-lg font-medium text-gray-900">Our Services</p>
+
+                <nav class="mt-8">
+                  <ul class="space-y-4 text-sm">
+                    <li>
+                      <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
+                        Web Development
+                      </a>
+                    </li>
+
+                    <li>
+                      <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
+                        Web Design
+                      </a>
+                    </li>
+
+                    <li>
+                      <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
+                        Marketing
+                      </a>
+                    </li>
+
+                    <li>
+                      <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
+                        Google Ads
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+
+              <div class="text-center sm:text-left">
+                <p class="text-lg font-medium text-gray-900">Helpful Links</p>
+
+                <nav class="mt-8">
+                  <ul class="space-y-4 text-sm">
+                    <li>
+                      <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
+                        FAQs
+                      </a>
+                    </li>
+
+                    <li>
+                      <a class="text-gray-700 transition hover:text-gray-700/75" href="/">
+                        Support
+                      </a>
+                    </li>
+
+                    <li>
+                      <a class="flex group justify-center gap-1.5 sm:justify-start" href="/">
+                        <span class="text-gray-700 transition group-hover:text-gray-700/75">
+                          Live Chat
+                        </span>
+
+                        <span class="relative flex w-2 h-2 -mr-2">
+                          <span
+                            class="absolute inline-flex w-full h-full bg-teal-400 rounded-full opacity-75 animate-ping"></span>
+                          <span class="relative inline-flex w-2 h-2 bg-teal-500 rounded-full"></span>
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+
+              <div class="text-center sm:text-left">
+                <p class="text-lg font-medium text-gray-900">Contact Us</p>
+
+                <ul class="mt-8 space-y-4 text-sm">
+                  <li>
+                    <a class="flex items-center justify-center gap-1.5 sm:justify-start" href="/">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-gray-900 shrink-0" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                          d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                      </svg>
+
+                      <span class="text-gray-700">john@doe.com</span>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a class="flex items-center justify-center gap-1.5 sm:justify-start" href="/">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-gray-900 shrink-0" fill="none"
+                        viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                          d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                      </svg>
+
+                      <span class="text-gray-700">0123456789</span>
+                    </a>
+                  </li>
+
+                  <li class="flex items-start justify-center gap-1.5 sm:justify-start">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-gray-900 shrink-0" fill="none"
+                      viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    </svg>
+
+                    <address class="-mt-0.5 not-italic text-gray-700">
+                      213 Lane, London, United Kingdom
+                    </address>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="pt-6 mt-12 border-t border-gray-100">
+            <div class="text-center sm:flex sm:justify-between sm:text-left">
+              <p class="text-sm text-gray-500">
+                <span class="block sm:inline">All rights reserved.</span>
+
+                <a class="inline-block text-teal-600 underline transition hover:text-teal-600/75" href="/">
+                  Terms & Conditions
+                </a>
+
+                <span>&middot;</span>
+
+                <a class="inline-block text-teal-600 underline transition hover:text-teal-600/75" href="/">
+                  Privacy Policy
+                </a>
+              </p>
+
+              <p class="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">
+                &copy; 2022 Company Name
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </section>
+
+
+
+    <script>
+      let defaultTransform = 0;
+      function goNext() {
+        defaultTransform = defaultTransform - 398;
+        var slider = document.getElementById("slider");
+        if (Math.abs(defaultTransform) >= slider.scrollWidth / 1.7) defaultTransform = 0;
+        slider.style.transform = "translateX(" + defaultTransform + "px)";
+      }
+      next.addEventListener("click", goNext);
+      function goPrev() {
+        var slider = document.getElementById("slider");
+        if (Math.abs(defaultTransform) === 0) defaultTransform = 0;
+        else defaultTransform = defaultTransform + 398;
+        slider.style.transform = "translateX(" + defaultTransform + "px)";
+      }
+      prev.addEventListener("click", goPrev);
+
+    </script>
+
+  </body>
+
+</html>
+`

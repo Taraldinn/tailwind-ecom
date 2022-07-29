@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="684" height="199" viewBox="0 0 684 199">
+  <defs>
+    <filter id="Εξερεύνησε_τη_βρεφική_συλλογή_της_NIVEA_και_βρες_την_περιποίηση_που_χρειάζεται_το_μωρό_σου" x="0" y="0" width="684" height="199" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Εξερεύνησε_τη_βρεφική_συλλογή_της_NIVEA_και_βρες_την_περιποίηση_που_χρειάζεται_το_μωρό_σου)">
+    <text id="Εξερεύνησε_τη_βρεφική_συλλογή_της_NIVEA_και_βρες_την_περιποίηση_που_χρειάζεται_το_μωρό_σου-2" data-name="Εξερεύνησε τη βρεφική 
+συλλογή της NIVEA 
+και βρες την περιποίηση 
+που χρειάζεται το μωρό σου" transform="translate(9 6)" fill="#fff" font-size="32" font-family="Manrope" font-weight="600" letter-spacing="-0.01em"><tspan x="312" y="34">Εξερεύνησε τη βρεφική </tspan><tspan x="382" y="78">συλλογή της NIVEA </tspan><tspan x="296" y="122">και βρες την περιποίηση </tspan><tspan x="242" y="166">που χρειάζεται το μωρό σου</tspan></text>
+  </g>
+</svg>

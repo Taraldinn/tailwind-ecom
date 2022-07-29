@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="684" height="59" viewBox="0 0 684 59">
+  <defs>
+    <filter id="ΒΡΕΦΙΚή_ΠΕΡΙΠΟίΗΣΗ" x="0" y="0" width="684" height="59" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#ΒΡΕΦΙΚή_ΠΕΡΙΠΟίΗΣΗ)">
+    <text id="ΒΡΕΦΙΚή_ΠΕΡΙΠΟίΗΣΗ-2" data-name="ΒΡΕΦΙΚή ΠΕΡΙΠΟίΗΣΗ" transform="translate(9 6)" fill="#fff" font-size="26" font-family="Manrope" letter-spacing="-0.015em"><tspan x="423" y="28">Βρεφική Περιποίηση</tspan></text>
+  </g>
+</svg>

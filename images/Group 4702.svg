@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1544" height="132" viewBox="0 0 1544 132">
+  <g id="Group_4702" data-name="Group 4702" transform="translate(-188 -9352)">
+    <rect id="Rectangle_6309" data-name="Rectangle 6309" width="1544" height="132" transform="translate(188 9352)" fill="#f9f9f9" style="mix-blend-mode: multiply;isolation: isolate"/>
+    <g id="template_button-bg" transform="translate(1566 9388)">
+      <rect id="Rectangle_4348" data-name="Rectangle 4348" width="126" height="56" fill="#212121"/>
+    </g>
+    <text id="Αποστολή" transform="translate(1566 9407)" fill="#fff" font-size="14" font-family="Manrope" font-weight="700"><tspan x="29" y="15">Αποστολή</tspan></text>
+    <g id="template_button-bg-2" data-name="template_button-bg" transform="translate(1151 9388)">
+      <g id="Rectangle_4348-2" data-name="Rectangle 4348" fill="none" stroke="#212121" stroke-width="1">
+        <rect width="407" height="56" stroke="none"/>
+        <rect x="0.5" y="0.5" width="406" height="55" fill="none"/>
+      </g>
+    </g>
+    <text id="Το_email_σας" data-name="Το email σας" transform="translate(1180 9407)" fill="#212121" font-size="14" font-family="Manrope"><tspan x="0" y="15">Το email σας</tspan></text>
+    <text id="Θέλετε_να_εγγραφείτε_στο_newsletter_μας_Συμπληρώστε_το_email_σας_για_να_σας_ενημερώνουμε_για_τα_νέα_μας." data-name="Θέλετε να εγγραφείτε στο newsletter μας;
+Συμπληρώστε το email σας για να σας ενημερώνουμε για τα νέα μας." transform="translate(230 9377)" fill="#7c7c7c" font-size="18" font-family="Manrope" font-weight="600" letter-spacing="-0.015em"><tspan x="0" y="19">Θέλετε να εγγραφείτε στο newsletter μας;</tspan><tspan x="0" y="43">Συμπληρώστε το email σας για να σας ενημερώνουμε για τα νέα μας.</tspan></text>
+    <text id="Συμφωνώ_με_την_Πολιτική_απορρήτου_" data-name="Συμφωνώ με την Πολιτική απορρήτου *" transform="translate(253 9435)" fill="#7c7c7c" font-size="14" font-family="Manrope"><tspan x="0" y="15">Συμφωνώ με την Πολιτική απορρήτου </tspan><tspan y="15" fill="#dd1b1e" font-weight="800">*</tspan></text>
+    <g id="Ellipse_1860" data-name="Ellipse 1860" transform="translate(230 9437)" fill="#fff" stroke="#707070" stroke-width="1">
+      <circle cx="8" cy="8" r="8" stroke="none"/>
+      <circle cx="8" cy="8" r="7.5" fill="none"/>
+    </g>
+    <circle id="Ellipse_1861" data-name="Ellipse 1861" cx="4" cy="4" r="4" transform="translate(234 9441)" fill="#dd1b1e"/>
+  </g>
+</svg>
